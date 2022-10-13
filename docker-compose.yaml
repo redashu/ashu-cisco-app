@@ -4,7 +4,7 @@ services:
     image: ashucisco:webappv1  # image i want to build 
     build:  # location & name of dockerfile 
       context: . 
-      dockerfile: day4app.dockerfile
+      dockerfile: Dockerfile
     container_name: ashuwebc11 # after image build the container i want to create
     ports: # port forwarding 
     - 1234:80 
